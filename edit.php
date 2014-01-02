@@ -18,6 +18,8 @@ $mobile = $row['mobile'];
 
 <html>
 <h1>Edit Information</h1>
+<a href="home.php">Home</a><br/>
+<a href="profile.php">Edit Profile</a><br/>
 <form action="save.php" method="post">
 Last Name:
 <input type="text" name="input_last_name" value="<?php echo $last_name?>" /><br/>
