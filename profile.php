@@ -33,7 +33,8 @@ $(document).ready(function(){
 <a href="home.php">Home</a><br/>
 
 <h1>Profile</h1>
-<a href="edit.php"/>Edit Information</a>
+<a href="edit.php"/>Edit Information</a><br/>
+<a href="account.php"/>Change Account Settigns</a>
 <div class="name">
 <div class="edit" name="output_last_name"><?php echo "$last_name," ?></div>
 <div class="edit" name="output_first_name"><?php echo "$first_name" ?></div>
